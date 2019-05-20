@@ -1,8 +1,9 @@
+/*HEADER*/
 .bandeau {
 	background-color : black;
 	display: flex;
 	flex-direction: row;
-
+	justify-content: space-between;
 }
 
 .bandeau img {
@@ -13,12 +14,14 @@
 
 }
 .bandeau .icones {
-		border: 15px solid pink;
-		display: flex;
-		justify-content: flex-end;
+
 }
- .bandeau p {
+ .bandeau p > a{
  	color: white;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-decoration: none;
+
 
  }
 
@@ -50,3 +53,5 @@ button {
 	border-radius: 20px;
 	outline: 0;
 }
+
+/*ACCUEIL ARTICLES*/
