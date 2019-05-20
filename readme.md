@@ -17,6 +17,8 @@
 
 ![Maquette papier](assets/img/maquettepapier.jpg)
 
-![Maquette html web](assets/img/maquettehtmlweb.jpg)
+![Maquette html web](assets/img/maquettehtmlweb.png)
 
-![Maquette html mobile](assets/img/maquettehtmlmobile.jpg)
+![Maquette html mobile](assets/img/maquettehtmlmobile.png)
+
+![exemple](https://www.pinterest.fr/pin/391602130089140672/)
