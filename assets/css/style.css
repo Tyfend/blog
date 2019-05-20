@@ -1,0 +1,23 @@
+.bandeau {
+	background-color : black;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.bandeau img {
+	width: 50px;
+	height: 50px;
+	padding: 10px 3px;
+	
+
+}
+.bandeau .icones {
+		border: 15px solid pink;
+		display: flex;
+		justify-content: flex-end;
+}
+ .bandeau p {
+ 	color: white;
+
+ }
