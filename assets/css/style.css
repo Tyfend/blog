@@ -1,5 +1,6 @@
 
 
+
 section, h1, nav{
 	margin: 0 20%;
 }
@@ -39,8 +40,13 @@ h1 {
  	text-transform: uppercase;
  	font-weight: bold;
  	text-decoration: none;
+ }
+.icones > a {
+	filter: opacity(0.8);
+}
 
-
+ .icones > a:hover {
+ 	filter: opacity(1);
  }
 
 
@@ -76,12 +82,12 @@ nav li > a {
 
 
  /* BARRE RECHERCHE PAGE ARTICLES*/
- .demo{
+ .search{
 	margin: 30px auto;
 	width: 70%;
 }
 
-input {
+.search input {
 	background-color: white;
 	text-align: center;
 	height: 40px;
@@ -93,7 +99,7 @@ input {
 	outline: 0;
 
 }
-button {
+.search button {
 	background-color: white;
 	position: relative;
 	left: -39px;
@@ -199,4 +205,64 @@ article:hover {
 }
 
 
-/**/
+/* PAGE CONNEXION */
+.identification {
+	background: url('https://picsum.photos/2000/1000') no-repeat;
+	background-attachment: fixed;
+} 
+
+.connectform {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.connect > div {
+	display: flex;
+	justify-content: flex-start;
+	border-top: 30px white solid;
+}
+
+.connectform * {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.connectform button, h2{
+	text-transform: uppercase;
+
+}
+.connectform  a {
+	margin: 20px;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.connectform input {
+	overflow: hidden;
+	float: right;
+}	
+
+.input i {
+	float: left;
+	width: 20px;
+	
+}
+
+.connectform input {
+	background: none;
+	outline: 0;
+	border: none;
+	border-bottom: 1px white solid;
+}
+
