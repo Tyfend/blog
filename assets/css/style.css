@@ -77,7 +77,18 @@ nav li > a {
 	text-shadow:  1px 1px;
 
 }
+ .bandeau p {
+ 	color: white;
+ 	display: flex;
+ 	align-items: center;
+ 	margin-left: 20px;
+ 	font-family: 'Stylish', sans-serif;
+ 	font-size: 20px;
+ }
 
+ .bandeau p a:hover {
+ 	text-shadow: grey 1px 0 1px;
+ }
 
 
 
@@ -256,7 +267,7 @@ article:hover {
 .input i {
 	float: left;
 	width: 20px;
-	
+
 }
 
 .connectform input {
@@ -266,3 +277,31 @@ article:hover {
 	border-bottom: 1px white solid;
 }
 
+/* ARTICLES */
+
+
+
+/* THEME ARTICLES */
+.themes {
+	display: grid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.themes table{
+	padding: 20px 20px;
+	background-color: pink;
+	}
+
+.themes td {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.themes th {
+	font-size: 22px;
+	padding-bottom: 15px;
+	border-bottom: black solid 2px;
+}
