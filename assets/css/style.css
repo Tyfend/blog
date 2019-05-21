@@ -1,7 +1,12 @@
+
+
 section, h1, nav{
 	margin: 0 20%;
 }
 
+
+
+/* HEADER TITRE */
 h1 {
 	margin-top: 5%;
 	text-align: center;
@@ -9,7 +14,9 @@ h1 {
 	font-family: 'Stylish', sans-serif;
 
 }
-/*HEADER*/
+
+
+/* HEADER BANDEAU NOIR */
 .bandeau {
 	background-color : black;
 	display: flex;
@@ -36,19 +43,19 @@ h1 {
 
  }
 
- /*MENU*/
+
+
+
+ /* MENU NAVIGATION */
  nav{
  	margin: 0 20%;
- 	
- 	
  }
+
 nav ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	list-style-type: none;
-	border: 1px black;
-	border-style: dashed solid;
 	padding: 15px 0;
 }
 
@@ -61,12 +68,14 @@ nav li > a {
 	padding: 0 70px ;
 }
  nav li > a:hover {
-	color: black;
-	text-shadow: grey 1px 1px;
+	text-shadow:  1px 1px;
 
 }
 
- /*BARRE RECHERCHE*/
+
+
+
+ /* BARRE RECHERCHE PAGE ARTICLES*/
  .demo{
 	margin: 30px auto;
 	width: 70%;
@@ -95,31 +104,99 @@ button {
 	outline: 0;
 }
 
-/*ACCUEIL ARTICLES*/
-.firstrow, .secondrow, .thirdrow {
+
+
+
+/* PAGE ACCUEIL -> ARTICLES */
+.firstrow, .secondrow{
         display: grid;
-    	grid-gap: 10%;
-        grid-template-columns: repeat(3, [col] 300px ) ;
+        grid-template-columns: 4fr 4fr 4fr 4fr;
       
     }
+.thirdrow {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 article {
-       padding: 20px 0;
-
-    }
-
-.firstrow article{
-	/*diviser en  3 colonnes pour remplir la section*/
+	grid-gap: 10px 10px ;
+	position: relative;
+	margin: 15px 5px;
+	transition: transform .2s;
+	filter: brightness(85%) blur(0.2px);
 }
 
-img{
-	width: 150%;
+
+article span {
+	position: absolute;
+	top: 5px;
+	color: white;
+	text-shadow: black 1px 1px 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
 }
 
-.secondrow article{
+article h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+article p {
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+article  img {
+	width: 100%;
+}
+
+article:hover {
 	
+	filter: brightness(100%) blur(0px);
+	transform: scale(1.05);
 }
 
-.thirdrow {
-	grid-row: row 3;
+.a {
+	display: grid;
+	grid-row: 1;
+	grid-column : 1 / 3;
+	z-index: 1;
 }
+
+.b {
+	display: grid;
+	grid-row: 1;
+	grid-column: : 3 / 4;
+}
+
+.c {
+	display: grid;
+	grid-row: 1;
+	grid-column: : 4 / 4;
+}
+
+.d {
+	display: grid;
+	grid-row: 2;
+	grid-column : 1 / 2;
+}
+
+.e {
+	display: grid;
+	grid-row: 2;
+	grid-column : 2 / 3;
+}
+
+.f{
+	display: grid;
+	grid-row: 2;
+	grid-column : 3 / 5;
+}
+
+
+/**/
