@@ -1,8 +1,8 @@
 
 
 
-section, h1, nav{
-	margin: 0 10%;
+=section, h1, nav{
+	margin: 0 20%;
 }
 
 
@@ -11,54 +11,49 @@ section, h1, nav{
 h1 {
 	margin-top: 5%;
 	text-align: center;
-	font-size: 25px;
+	font-size: 90px;
 	font-family: 'Stylish', sans-serif;
 
 }
 
 
 /* HEADER BANDEAU NOIR */
-
 .bandeau {
 	background-color : black;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: space-between;
 }
 
 .bandeau img {
-	width: 30px;
-	height: 30px;
-	padding: 10px 1px;
-}
+	width: 50px;
+	height: 50px;
+	padding: 10px 3px;
+	
 
-.bandeau .icones > a {
+}
+.bandeau .icones {
+
+}
+ .bandeau p > a{
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ }
+.icones > a {
 	filter: opacity(0.8);
 }
 
- .bandeau .icones > a:active {
+ .icones > a:hover {
  	filter: opacity(1);
- }*/
-
- .bandeau nav input[type=checkbox]{
- 	display: none;
  }
-.menumobile{
-	display: none;
-}
-.menu {
-	display: flex;
-	flex-direction: row;
-}
-.menu li a{
-	text-decoration: none;
-}
+
 
 
 
  /* MENU NAVIGATION */
-/* nav{
+ nav{
  	margin: 0 20%;
  }
 
@@ -94,7 +89,7 @@ nav li > a {
  .bandeau p a:hover {
  	text-shadow: grey 1px 0 1px;
  }
-*/
+
 
 
  /* BARRE RECHERCHE PAGE ARTICLES*/
