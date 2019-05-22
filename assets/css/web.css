@@ -137,7 +137,7 @@ nav li > a {
 
 article {
 	grid-gap: 10px 10px ;
-	position: relative;
+	position: absolute;
 	margin: 15px 5px;
 	transition: transform .2s;
 	filter: brightness(85%) blur(0.2px);
@@ -145,7 +145,7 @@ article {
 
 
 article span {
-	position: absolute;
+	position: relative;
 	top: 5px;
 	color: white;
 	text-shadow: black 1px 1px 1px;
