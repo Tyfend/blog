@@ -33,7 +33,19 @@ h1 {
 	padding: 10px 1px;
 }
 
-
+nav .menumobile{
+	color: red;
+	
+}
+.menu {
+	display: none;
+}
+input[type=checkbox] {
+	display: none;
+}
+input[type=checkbox]:checked ~ ul{
+	display: block;
+}
 
 
 
