@@ -25,6 +25,7 @@ h1 {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+		justify-content: row-reverse;
 }
 
 .bandeau img {
@@ -33,6 +34,9 @@ h1 {
 	padding: 10px 1px;
 }
 
+nav {
+
+}
 nav .menumobile{
 	color: red;
 	
