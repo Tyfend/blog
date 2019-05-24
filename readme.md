@@ -14,3 +14,9 @@
 * dynamique du site (animation etc... )
 
 ### MES MAQUETTES
+
+![Maquette index et menu burger](assets/img/maquette3IndexMenuburger.jpg)
+
+![Maquette liste articles et articles](assets/img/maquette2ArticlesArticle.jpg)
+
+![Maquette page contact connection inscription](assets/img/maquette1ContactConnection.jpg)
