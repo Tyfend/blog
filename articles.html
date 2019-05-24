@@ -9,75 +9,90 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 	<body>
-		<header>
-			<div class="bandeau">
-				<p>
-					<a href="connexion.html">connexion</a>
-				</p>
-				<div class="icones">
-					<a href=""><img src="assets/img/facebook.png"></a>
-					<a href=""><img src="assets/img/twitter.png"></a>
-					<a href=""><img src="assets/img/insta.png"></a>
-					<a href=""><img src="assets/img/youtube.png"></a>
-				</div>
-			</div>
-			<h1>
-				ARTICLES
-			</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="articles.html">Articles</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+			<header>
+					<nav class="mobilescreen">
+						<div title="Menu" id="menuToggle">
+						  <input type="checkbox">
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								  <li>
+									<a href="index.html">Home</a>
+								</li>
+								   <li>
+									<a href="articles.html">Articles</a>
+								</li>
+								<li>
+								   <a href="contact.html">Contact</a>
+								</li>
+								<li>
+									<a href="connexion.html">Connexion</a>
+								</li>
+								<li>
+									<a href="inscription.html">Inscription</a>
+								</li>
+							  </ul>
+						  </div>
+					  </nav>
+				</header>
+				<h1>ARTICLES</h1>
 		</header>
 
 		<section class="search">
 			<div>
-				<input type="text" name=""><button><i class="fas fa-search"></i></button>
+				<input type="text" name="" placeholder="recherche par mot-clé"><button><i class="fas fa-search"></i></button>
 			</div>
 		</section>
 
 		<section class="themes">
-			<div class="theme1">
+			<div class="voyages">
 				<table>
 					<th>
 						voyages
 					</th>
 					<tr>
-						<td><a href="articles/article1.html">rrct</a></td>
-						<td><a href="articles/article2.html">rrct</a></td>
-						<td><a href="articles/article3.html">rrct</a></td>
+						<td><a href="articles/article1.html">Road Trip dans les Monts d'Arrés</a></td>
+						<td><a href="articles/article2.html">La tournée 2019 des bars à bières belges</a></td>
+						<td><a href="articles/article3.html">Camping sous les étoiles (ou les lampadaires Parisiens)</a></td>
 					</tr>
 				</table>
 			</div>
-			<div class="theme2">
+			<div class="actualités">
 				<table>
 					<th>
 						actualités
 					</th>
 					<tr>
-						<td><a href="articles/article4.html">rrct</a></td>
-						<td><a href="articles/article5.html">rrct</a></td>
-						<td><a href="articles/article6.html">rrct</a></td>
+						<td><a href="articles/article4.html">Politique : êtes vous aveugles? faites le test !</a></td>
+						<td><a href="articles/article5.html">Facebook a encore caché des trucs quelque part</a></td>
 					</tr>
 				</table>
 				
 			</div>
-			<div class="theme3">
+			<div class="sports">
 				<table>
 					<th>
-						sports
+						santé
 					</th>
 					<tr>
-						<td><a href="articles/article10.html">rrct</a></td>
-						<td><a href="articles/article9.html">rrct</a></td>
-						<td><a href="articles/article8.html">rrct</a></td>
-						<td><a href="articles/article7.html">rrct</a></td>
+						<td><a href="articles/article10.html">Top 5 des légumes imangeables (mais bon pour la santé)</a></td>
+						<td><a href="articles/article6.html">Ces nouveaux chaussons vous accompagneront pour votre jogging matinal</a></td>
+						<td><a href="articles/article8.html">Oui, boire trop d'eau peu pour faire rouiller</a></td>
 					</tr>
 				</table>
 			</div>
+			<div class="it">
+					<table>
+						<th>
+							informatique
+						</th>
+						<tr>
+							<td><a href="articles/article9.html">Réalité augmentée : "pas si ouf que ça"</a></td>
+							<td><a href="articles/article7.html">Microsoft propose de rémunérer les futurs utilisateurs de Windows12</a></td>
+						</tr>
+					</table>
+				</div>
 		</section>
 	</body>
 </html>

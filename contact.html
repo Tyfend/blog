@@ -4,48 +4,51 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
-	
-	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	
+	<title>Mon Blog</title>
 </head>
 	<body>
 		<header>
-			<div class="bandeau">
-				<p>
-					<a href="connexion.html">connexion</a>
-				</p>
-				<div class="icones">
-					<a href=""><img src="assets/img/facebook.png"></a>
-					<a href=""><img src="assets/img/twitter.png"></a>
-					<a href=""><img src="assets/img/insta.png"></a>
-					<a href=""><img src="assets/img/youtube.png"></a>
-				</div>
-			</div>
-			<h1>
-				CONTACT
-			</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="articles.html">Articles</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+			<nav class="mobilescreen">
+				<div title="Menu" id="menuToggle">
+				  <input type="checkbox">
+					<span></span>
+					<span></span>
+					<span></span>
+					<ul id="menu">
+					  	<li>
+							<a href="index.html">Home</a>
+						</li>
+					   	<li>
+							<a href="articles.html">Articles</a>
+						</li>
+						<li>
+						   <a href="contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="connexion.html">Connexion</a>
+						</li>
+						<li>
+							<a href="inscription.html">Inscription</a>
+						</li>
+					  </ul>
+				  </div>
+			  </nav>
 		</header>
-
-		<section>
-			<p>Contactez-moi :</p>
-			<form>
-				<input type="" name="">
-				<input type="" name="">
-				<textarea></textarea>
-			</form>
-		</section>
-
-		<section>
-			<p>Où me trouver :</p>
-			<p>mail</p>
-			<p>réseaux sociaux</p>
-		</section>
+		<h1>CONTACT</h1>
+		<div class="contactform">
+		<form action="">	
+			<input type="text" placeholder="Nom" name="name" required>
+			<input type="email" placeholder="Email" name="email" required>
+			<textarea placeholder="Message" name="message" required></textarea>
+			<div class="robot">
+					<input type="checkbox" />
+					<p>vous êtes un robot</p>
+			</div>
+			<input type="submit" value="Send">
+		</form>
+		</div>
 	</body>
 </html>

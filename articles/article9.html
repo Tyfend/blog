@@ -9,47 +9,60 @@
 	
 	<title>article</title>
 </head>
-	<body>
+	<body class="bodyarticle">
 		<header>
-			<div class="bandeau">
-				<p>
-					<a href="../connexion.html">connexion</a>
-				</p>
-				<div class="icones">
-					<a href="https://fr-fr.facebook.com/" target="blank"><img src="../assets/img/facebook.png"></a>
-					<a href="https://twitter.com/?lang=fr" target="blank"><img src="../assets/img/twitter.png"></a>
-					<a href="https://www.instagram.com" target="blank"><img src="../assets/img/insta.png"></a>
-					<a href="https://www.youtube.com/" target="blank"><img src="../assets/img/youtube.png"></a>
+			<nav class="mobilescreen">
+				<div title="Menu" id="menuToggle">
+				  <input type="checkbox">
+					<span></span>
+					<span></span>
+					<span></span>							
+					<ul id="menu">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../articles.html">Articles</a>
+						</li>
+						<li>
+							 <a href="../contact.html">Contact</a>
+						</li>
+						<li>
+							<a href="../connexion.html">Connexion</a>
+						</li>
+						<li>
+							<a href="inscription.html">Inscription</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			
-			<nav>
-				<ul>
-					<li>
-						<a href="../articles.html">retour</a>
-					</li>
-					<li>
-						<a href="../index.html">accueil</a>
-					</li>
-				</ul>
 			</nav>
-
-			<section>
+		</header>
+			<section id="article">
 				<h2>Titre de l'article</h2>
 				<div>
-					<img src="https://picsum.photos/1000/500">
+					<img src="https://picsum.photos/500/250">
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh mauris, iaculis nec efficitur in, ultricies eu quam. Nam et arcu vel mauris vestibulum porttitor at id urna. Ut quis massa non nisl viverra vestibulum. Maecenas tincidunt, mi in sodales accumsan, justo augue pulvinar urna, in porttitor urna erat at nisl. Nam sit amet rhoncus turpis. Quisque eget ante scelerisque, consectetur odio vel, suscipit lectus. Curabitur viverra magna quis mauris condimentum aliquet. </p>
 					<p> Mauris ut nisl non sapien hendrerit luctus non eget turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a nunc sed enim dictum porttitor. Suspendisse molestie convallis justo in venenatis. Ut sodales lacus at metus blandit, quis interdum augue mollis. Sed vel nisl a tortor porttitor faucibus sed id felis. In egestas suscipit finibus. Nulla orci orci, pretium quis massa a, placerat porttitor ante. Etiam vel tristique elit, vitae pharetra arcu. Suspendisse laoreet dui ut venenatis bibendum. Mauris id urna et tortor commodo posuere. Morbi nisl metus, elementum vel varius quis, auctor quis tellus. Curabitur hendrerit dictum mauris non dignissim. Nunc fermentum diam pharetra urna vestibulum feugiat. Nulla mattis gravida lectus, vitae ultrices augue sodales non. </p>
 				</div>
 			</section>
+			
+			<section id="commentaires">
+				
+				<div>
+					<i class="fas fa-comment-alt"></i>
+				</div>
+				<p>commentaires</p>
+			</section>
 
-	<nav>
-				<ul>
+			<hr>
+
+			<nav>
+				<ul class="next">
 					<li>
 						<a href="article8.html">
 							<i class="fas fa-arrow-left"></i>
-							article précédent
-						</a>
+								article précédent
+								</a>
 					</li>
 					<li>
 						<a href="article10.html">
@@ -59,8 +72,6 @@
 					</li>
 				</ul>
 			</nav>
-
-			
 		</header>
 	</body>
 </html>
